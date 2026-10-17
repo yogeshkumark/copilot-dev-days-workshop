@@ -36,6 +36,36 @@ const QUESTIONS = [
     ],
     answer: 1,
   },
+  {
+    question: "What is GitHub Actions?",
+    options: [
+      "A code editor for GitHub",
+      "A CI/CD automation platform built into GitHub",
+      "A GitHub repository template",
+      "A branch protection rule",
+    ],
+    answer: 1,
+  },
+  {
+    question: "Which file defines a workflow for GitHub Actions?",
+    options: [
+      ".github/workflows/main.yml",
+      "workflow.json",
+      ".gitignore",
+      "README.md",
+    ],
+    answer: 0,
+  },
+  {
+    question: "What does a GitHub Actions workflow typically run on?",
+    options: [
+      "A local desktop app",
+      "A GitHub-hosted runner",
+      "A SQL database",
+      "A static HTML file",
+    ],
+    answer: 1,
+  },
 ];
 
 // Lets Node.js tests load this file. Browsers ignore this block.
